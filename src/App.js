@@ -1,4 +1,5 @@
 import React from 'react';
+import {Button} from 'react-a11y-patterns'
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Button>Button!</Button>
       </header>
     </div>
   );
